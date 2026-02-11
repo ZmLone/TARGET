@@ -346,28 +346,127 @@ const syllabusDatabase = {
         ]
     },
     
-    // === CARD: AIATS 6 (Upcoming) ===
+   // === CARD: AIATS 6 ===
     "aiats6": {
-        title: "AIATS 6 Target (Feb 23 - Mar 08)",
+        title: "AIATS 6 Syllabus (Feb 23 - Mar 08)",
         subjects: [
             {
                 name: "Physics",
                 chapters: [
-                    { title: "Moving Charges & Magnetism", tests: [{id: "DT-16 to 19", topics: "Biot-savart, Ampere law, Solenoid, Torque"}] },
-                    { title: "Magnetism & Matter", tests: [{id: "DT-20 to 21", topics: "Bar magnet, Earth magnetism, Materials"}] },
-                    { title: "EMI & AC", tests: [{id: "DT-22 to 25", topics: "Faraday law, Lenz law, LCR circuit, Transformers"}] }
+                    {
+                        title: "Moving Charges and Magnetism",
+                        tests: [
+                            { id: "DT-16 (Phy-XII)", topics: "Motion in magnetic field, Velocity selector" },
+                            { id: "DT-17 (Phy-XII)", topics: "Biot-savart's law, Cyclotron, Current element" },
+                            { id: "DT-18 (Phy-XII)", topics: "Ampere's Circuital Law, Solenoid, Toroid" },
+                            { id: "DT-19 (Phy-XII)", topics: "Torque on current loop, Moving coil Galvanometer" }
+                        ]
+                    },
+                    {
+                        title: "Magnetism and Matter",
+                        tests: [
+                            { id: "DT-20 (Phy-XII)", topics: "Bar magnet, Magnetism and Gauss's Law" },
+                            { id: "DT-21 (Phy-XII)", topics: "Earth's magnetism, Magnetic properties of materials" }
+                        ]
+                    },
+                    {
+                        title: "Electromagnetic Induction",
+                        tests: [
+                            { id: "DT-22 (Phy-XII)", topics: "Faraday's laws, Lenz's law, Motional EMF" },
+                            { id: "DT-23 (Phy-XII)", topics: "Eddy currents, Self & Mutual Inductance" }
+                        ]
+                    },
+                    {
+                        title: "Alternating Current",
+                        tests: [
+                            { id: "DT-24 (Phy-XII)", topics: "AC voltage applied to Resistor/Inductor/Capacitor" },
+                            { id: "DT-25 (Phy-XII)", topics: "LCR circuit, Power in AC, Transformers" }
+                        ]
+                    },
+                    {
+                        title: "Electromagnetic Waves",
+                        tests: [
+                            { id: "DT-26 (Phy-XII)", topics: "Displacement current, EM Spectrum" }
+                        ]
+                    }
                 ]
             },
             {
                 name: "Chemistry",
                 chapters: [
-                    { title: "Coordination Compounds", tests: [{id: "DT-15 to 16", topics: "Werner theory, VBT, CFT"}] },
-                    { title: "d and f Block", tests: [{id: "DT-13 to 14", topics: "KMnO4, K2Cr2O7, Lanthanoids"}] }
+                    {
+                        title: "d and f-Block Elements",
+                        tests: [
+                            { id: "DT-13 (Chem-XII)", topics: "General properties, KMnO4 and K2Cr2O7" },
+                            { id: "DT-14 (Chem-XII)", topics: "Lanthanoids, Actinoids, Applications" }
+                        ]
+                    },
+                    {
+                        title: "Coordination Compounds",
+                        tests: [
+                            { id: "DT-15 (Chem-XII)", topics: "Werner's theory, Nomenclature, Isomerism" },
+                            { id: "DT-16 (Chem-XII)", topics: "VBT, CFT, Bonding in metal carbonyls" }
+                        ]
+                    },
+                    {
+                        title: "Amines",
+                        tests: [
+                            { id: "DT-25 (Chem-XII)", topics: "Structure, Nomenclature, Preparation" },
+                            { id: "DT-26 (Chem-XII)", topics: "Chemical reactions, Diazonium salts" }
+                        ]
+                    }
+                ]
+            },
+            {
+                name: "Botany",
+                chapters: [
+                    {
+                        title: "Molecular Basis of Inheritance",
+                        tests: [
+                            { id: "DT-10 (Bot-XII)", topics: "DNA Structure, Packaging" },
+                            { id: "DT-11 (Bot-XII)", topics: "Search for genetic material, RNA World, Replication" },
+                            { id: "DT-12 (Bot-XII)", topics: "Transcription (Prokaryotes & Eukaryotes)" },
+                            { id: "DT-13 (Bot-XII)", topics: "Genetic Code, t-RNA, Translation" },
+                            { id: "DT-14 (Bot-XII)", topics: "Gene Regulation (Operon), HGP, DNA Fingerprinting" }
+                        ]
+                    },
+                    {
+                        title: "Microbes in Human Welfare",
+                        tests: [
+                            { id: "DT-15 (Bot-XII)", topics: "Microbes in household & industrial products" },
+                            { id: "DT-16 (Bot-XII)", topics: "Sewage treatment, Biogas, Biofertilizers" }
+                        ]
+                    }
+                ]
+            },
+            {
+                name: "Zoology",
+                chapters: [
+                    {
+                        title: "Evolution",
+                        tests: [
+                            { id: "DT-10 (Zoo-XII)", topics: "Origin of Life, Theories (Miller's Experiment)" },
+                            { id: "DT-11 (Zoo-XII)", topics: "Evidences: Morphological, Embryological" },
+                            { id: "DT-12 (Zoo-XII)", topics: "Hardy Weinberg Principle, Adaptive Radiation" },
+                            { id: "DT-13 (Zoo-XII)", topics: "Speciation, Geological time scale" },
+                            { id: "DT-14 (Zoo-XII)", topics: "Human Evolution" }
+                        ]
+                    },
+                    {
+                        title: "Human Health & Disease",
+                        tests: [
+                            { id: "DT-15 (Zoo-XII)", topics: "Common Diseases: Bacterial, Viral, Fungal" },
+                            { id: "DT-16 (Zoo-XII)", topics: "Malaria Life Cycle, Immunity types" },
+                            { id: "DT-17 (Zoo-XII)", topics: "Vaccination, Allergies, Lymphoid Organs" },
+                            { id: "DT-18 (Zoo-XII)", topics: "AIDS: Cause, Symptoms, Prevention" },
+                            { id: "DT-19 (Zoo-XII)", topics: "Cancer: Detection & Treatment" },
+                            { id: "DT-20 (Zoo-XII)", topics: "Drugs & Alcohol Abuse" }
+                        ]
+                    }
                 ]
             }
         ]
     }
-};
 
 // --- 2. LOGIC TO RENDER THE PAGE ---
 
