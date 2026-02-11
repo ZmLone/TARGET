@@ -509,7 +509,103 @@ const syllabusDatabase = {
                 ]
             }
         ]
-    }
+    },
+    // === CARD: REMAINING CHEMISTRY (Mar 09 - Mar 15) ===
+    "rem_chem": {
+        title: "Remaining Chemistry (Mar 09 - Mar 15)",
+        subjects: [
+            {
+                name: "Chemistry (Class XI)",
+                chapters: [
+                    {
+                        title: "Some Basic Concepts of Chemistry",
+                        tests: [
+                            { id: "DT-1 (Chem-XI)", topics: "Laws of chemical combination, Dalton's theory, Mole concept basics" },
+                            { id: "DT-2 (Chem-XI)", topics: "Mole concept detailed" },
+                            { id: "DT-3 (Chem-XI)", topics: "Stoichiometry, Empirical formula" },
+                            { id: "DT-4 (Chem-XI)", topics: "Limiting reagents, Concentration terms (Molarity, Molality)" }
+                        ]
+                    },
+                    {
+                        title: "Structure of Atom",
+                        tests: [
+                            { id: "DT-5 (Chem-XI)", topics: "Bohr's model, Photoelectric effect, Dual nature" },
+                            { id: "DT-6 (Chem-XI)", topics: "Quantum numbers, Orbitals, Aufbau principle" },
+                            { id: "DT-7 (Chem-XI)", topics: "Electronic configuration, Pauli's & Hund's rules" }
+                        ]
+                    },
+                    {
+                        title: "Classification of Elements",
+                        tests: [
+                            { id: "DT-8 (Chem-XI)", topics: "Periodic table history, s, p, d, f blocks" },
+                            { id: "DT-9 (Chem-XI)", topics: "Periodic trends: Radius, Ionization Enthalpy, Electronegativity" }
+                        ]
+                    },
+                    {
+                        title: "Chemical Bonding",
+                        tests: [
+                            { id: "DT-10 (Chem-XI)", topics: "VSEPR Theory, Hybridization, Dipole moment" },
+                            { id: "DT-11 (Chem-XI)", topics: "Valence Bond Theory, Resonance" },
+                            { id: "DT-12 (Chem-XI)", topics: "Hybridization types, Sigma & Pi bonds" },
+                            { id: "DT-13 (Chem-XI)", topics: "Molecular Orbital Theory (MOT), Hydrogen bonding" }
+                        ]
+                    },
+                    {
+                        title: "Thermodynamics",
+                        tests: [
+                            { id: "DT-14 (Chem-XI)", topics: "First Law, Internal Energy, Work & Heat" },
+                            { id: "DT-15 (Chem-XI)", topics: "Hess's Law, Enthalpy of reactions" },
+                            { id: "DT-16 (Chem-XI)", topics: "Entropy, Second Law, Gibbs Free Energy" }
+                        ]
+                    },
+                    {
+                        title: "Equilibrium",
+                        tests: [
+                            { id: "DT-17 (Chem-XI)", topics: "Chemical Equilibrium, Le Chatelier's Principle" },
+                            { id: "DT-18 (Chem-XI)", topics: "Ionic Equilibrium, pH, Acids & Bases" },
+                            { id: "DT-19 (Chem-XI)", topics: "Buffer Solutions, Solubility Product" }
+                        ]
+                    },
+                    {
+                        title: "Redox Reactions",
+                        tests: [
+                            { id: "DT-20 (Chem-XI)", topics: "Oxidation Numbers, Balancing Redox Reactions" },
+                            { id: "DT-21 (Chem-XI)", topics: "Electrochemical cells, Titrations" }
+                        ]
+                    }
+                ]
+            },
+            {
+                name: "Chemistry (Class XII)",
+                chapters: [
+                    {
+                        title: "Solutions",
+                        tests: [
+                            { id: "DT-1 (Chem-XII)", topics: "Concentration terms, Henry's Law, Raoult's Law" },
+                            { id: "DT-2 (Chem-XII)", topics: "Colligative Properties, van't Hoff Factor" }
+                        ]
+                    },
+                    {
+                        title: "Electrochemistry",
+                        tests: [
+                            { id: "DT-3 (Chem-XII)", topics: "Nernst Equation, Electrochemical Cells" },
+                            { id: "DT-4 (Chem-XII)", topics: "Gibbs Energy, Equilibrium Constant" },
+                            { id: "DT-5 (Chem-XII)", topics: "Conductance, Kohlrausch Law" },
+                            { id: "DT-6 (Chem-XII)", topics: "Electrolysis, Batteries, Corrosion" }
+                        ]
+                    },
+                    {
+                        title: "Chemical Kinetics",
+                        tests: [
+                            { id: "DT-7 (Chem-XII)", topics: "Rate Law, Order, Half-life (Zero & First Order)" },
+                            { id: "DT-8 (Chem-XII)", topics: "Arrhenius Equation, Activation Energy" },
+                            { id: "DT-9 (Chem-XII)", topics: "Collision Theory" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
 
     
 };
