@@ -346,7 +346,7 @@ const syllabusDatabase = {
         ]
     },
     
-   // === CARD: AIATS 6 ===
+    // === CARD: AIATS 6 ===
     "aiats6": {
         title: "AIATS 6 Syllabus (Feb 23 - Mar 08)",
         subjects: [
@@ -466,8 +466,8 @@ const syllabusDatabase = {
                 ]
             }
         ]
-    };
-
+    }
+};
 // --- 2. LOGIC TO RENDER THE PAGE ---
 
 document.addEventListener('DOMContentLoaded', () => {
