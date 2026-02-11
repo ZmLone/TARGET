@@ -466,7 +466,7 @@ const syllabusDatabase = {
                 ]
             }
         ]
-    }
+    };
 
 // --- 2. LOGIC TO RENDER THE PAGE ---
 
