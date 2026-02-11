@@ -158,6 +158,9 @@ const syllabusDatabase = {
         ]
     },
 
+    
+    
+    
     // === CARD: CLASS 11 BIOLOGY ===
     "bio_11": {
         title: "Class 11 Biology Target (Feb 12 - Mar 15)",
@@ -466,8 +469,53 @@ const syllabusDatabase = {
                 ]
             }
         ]
+    },
+"phy_electro": {
+        title: "Physics: Electrostatics & Current (Mar 09 - Mar 15)",
+        subjects: [
+            {
+                name: "Physics (Class XII)",
+                chapters: [
+                    {
+                        title: "Electric Charges and Fields",
+                        tests: [
+                            { id: "DT-1 (Phy-XII)", topics: "Electric charges, Conductors, Insulators, Properties of charge" },
+                            { id: "DT-2 (Phy-XII)", topics: "Coulomb's law, Force between multiple charges" },
+                            { id: "DT-3 (Phy-XII)", topics: "Electric Field, Field due to system of charges" },
+                            { id: "DT-4 (Phy-XII)", topics: "Electric field lines, Electric Dipole, Dipole in uniform field" },
+                            { id: "DT-5 (Phy-XII)", topics: "Electric flux, Gauss's Law & its Applications" }
+                        ]
+                    },
+                    {
+                        title: "Electrostatic Potential and Capacitance",
+                        tests: [
+                            { id: "DT-6 (Phy-XII)", topics: "Electrostatic potential, Potential due to point charge" },
+                            { id: "DT-7 (Phy-XII)", topics: "Equipotential surfaces, Potential energy of system of charges" },
+                            { id: "DT-8 (Phy-XII)", topics: "Electrostatics of conductors, Dielectrics and polarization" },
+                            { id: "DT-9 (Phy-XII)", topics: "Capacitors and capacitance, Parallel plate capacitor" },
+                            { id: "DT-10 (Phy-XII)", topics: "Combination of capacitors, Energy stored, Van de Graff Generator" }
+                        ]
+                    },
+                    {
+                        title: "Current Electricity",
+                        tests: [
+                            { id: "DT-11 (Phy-XII)", topics: "Electric current, Ohm's law, Drift velocity, Resistivity" },
+                            { id: "DT-12 (Phy-XII)", topics: "Combination of resistors (Series and Parallel)" },
+                            { id: "DT-13 (Phy-XII)", topics: "Cells, EMF, Internal resistance, Cells in series/parallel" },
+                            { id: "DT-14 (Phy-XII)", topics: "Kirchhoff's laws and applications" },
+                            { id: "DT-15 (Phy-XII)", topics: "Wheatstone bridge, Meter Bridge" }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
+
+    
 };
+
+
+
 // --- 2. LOGIC TO RENDER THE PAGE ---
 
 document.addEventListener('DOMContentLoaded', () => {
