@@ -606,6 +606,108 @@ const syllabusDatabase = {
             }
         ]
     },
+    // === CARD: CLASS 11 PHYSICS (Selected Chapters) ===
+    "phy_11_sel": {
+        title: "Class 11 Physics (Selected) (Mar 16 - Mar 27)",
+        subjects: [
+            {
+                name: "Physics (Class XI)",
+                chapters: [
+                    {
+                        title: "Units & Measurements",
+                        tests: [
+                            { id: "DT-1 (Phy-XI)", topics: "Units, Errors in measurement" },
+                            { id: "DT-2 (Phy-XI)", topics: "Significant figures" },
+                            { id: "DT-3 (Phy-XI)", topics: "Dimensional analysis and applications" }
+                        ]
+                    },
+                    {
+                        title: "Motion in a Straight Line",
+                        tests: [
+                            { id: "DT-4 (Phy-XI)", topics: "Path length, Displacement, Average velocity" },
+                            { id: "DT-5 (Phy-XI)", topics: "Instantaneous velocity, Calculus, Graphs" },
+                            { id: "DT-6 (Phy-XI)", topics: "Kinematic equations" },
+                            { id: "DT-7 (Phy-XI)", topics: "Motion under gravity" },
+                            { id: "DT-8 (Phy-XI)", topics: "Relative velocity" }
+                        ]
+                    },
+                    {
+                        title: "Motion in a Plane",
+                        tests: [
+                            { id: "DT-9 (Phy-XI)", topics: "Vectors: Addition, Subtraction, Resolution" },
+                            { id: "DT-10 (Phy-XI)", topics: "Motion in a plane with constant acceleration" },
+                            { id: "DT-11 (Phy-XI)", topics: "Relative velocity in two dimensions" },
+                            { id: "DT-12 (Phy-XI)", topics: "Projectile motion: Range, Height, Time of flight" },
+                            { id: "DT-13 (Phy-XI)", topics: "Uniform circular motion" }
+                        ]
+                    },
+                    {
+                        title: "Work, Energy & Power",
+                        tests: [
+                            { id: "DT-20 (Phy-XI)", topics: "Work, Kinetic Energy, Work-Energy Theorem" },
+                            { id: "DT-21 (Phy-XI)", topics: "Potential Energy, Spring force" },
+                            { id: "DT-22 (Phy-XI)", topics: "Conservation of Mechanical Energy, Vertical Circle" },
+                            { id: "DT-23 (Phy-XI)", topics: "Power" },
+                            { id: "DT-24 (Phy-XI)", topics: "Collisions (1D and 2D), Elastic & Inelastic" }
+                        ]
+                    },
+                    {
+                        title: "Gravitation",
+                        tests: [
+                            { id: "DT-30 (Phy-XI)", topics: "Kepler's laws, Universal law, Acceleration due to gravity" },
+                            { id: "DT-31 (Phy-XI)", topics: "Gravitational Potential, Escape Speed, Satellites" }
+                        ]
+                    },
+                    {
+                        title: "Mechanical Properties of Solids",
+                        tests: [
+                            { id: "DT-32 (Phy-XI)", topics: "Stress & Strain, Hooke's Law, Young's Modulus" },
+                            { id: "DT-33 (Phy-XI)", topics: "Elastic Potential Energy, Applications" }
+                        ]
+                    },
+                    {
+                        title: "Thermal Properties of Matter",
+                        tests: [
+                            { id: "DT-38 (Phy-XI)", topics: "Temperature, Thermal Expansion, Gas Equation" },
+                            { id: "DT-39 (Phy-XI)", topics: "Specific Heat, Calorimetry, Change of State" },
+                            { id: "DT-40 (Phy-XI)", topics: "Heat Transfer: Conduction, Convection" },
+                            { id: "DT-41 (Phy-XI)", topics: "Radiation, Stefan's Law, Newton's Law of Cooling" }
+                        ]
+                    },
+                    {
+                        title: "Thermodynamics",
+                        tests: [
+                            { id: "DT-42 (Phy-XI)", topics: "Zeroth Law, First Law, Internal Energy" },
+                            { id: "DT-43 (Phy-XI)", topics: "Thermodynamic Processes" },
+                            { id: "DT-44 (Phy-XI)", topics: "Second Law, Heat Engines, Carnot Engine" }
+                        ]
+                    },
+                    {
+                        title: "Kinetic Theory",
+                        tests: [
+                            { id: "DT-45 (Phy-XI)", topics: "Ideal Gas, Law of Equipartition, Mean Free Path" }
+                        ]
+                    },
+                    {
+                        title: "Oscillations",
+                        tests: [
+                            { id: "DT-46 (Phy-XI)", topics: "Periodic Motion, SHM vs Uniform Circular Motion" },
+                            { id: "DT-47 (Phy-XI)", topics: "Velocity, Acceleration, Energy in SHM" },
+                            { id: "DT-48 (Phy-XI)", topics: "Simple Pendulum, Systems executing SHM" }
+                        ]
+                    },
+                    {
+                        title: "Waves",
+                        tests: [
+                            { id: "DT-49 (Phy-XI)", topics: "Transverse & Longitudinal Waves" },
+                            { id: "DT-50 (Phy-XI)", topics: "Progressive Wave Equation, Speed of Wave" },
+                            { id: "DT-51 (Phy-XI)", topics: "Superposition, Reflection, Beats" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 
     
 };
